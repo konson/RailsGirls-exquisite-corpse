@@ -1,0 +1,11 @@
+<%= form_tag(converters_convert_path) do %>
+    <%= label_tag "Enter Text" %>
+    <%= text_field_tag :sentence %>
+    
+    <%= submit_tag "Submit" %>
+
+<% end %>
+
+ 
+<h1><%= @output %></h1>
+
